@@ -1,0 +1,28 @@
+{margin:0; box-sizing:border-box;}
+.TabelaCarros{
+    float: left;
+    width: 80%;
+    margin: 30px 10%;
+    text-align: center;
+}
+.TabelaCarros thead tr:first-child{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    
+}
+.TabelaCarros tbody tr:nth-child(2n){
+    background-color: #CCC;
+    color: #000;
+    font-weight: bold;
+    
+}
+h1{
+    text-align: center;
+}
+input{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+}
